@@ -9,6 +9,7 @@ It is rare to still find an application returning some information into the pass
 ## Files
 First, let's check the data directory on the Jenkins instance:
 
+```
 ├── credentials.xml
 ├── secret.key
 ├── secret.key.not-so-secret
@@ -17,6 +18,7 @@ First, let's check the data directory on the Jenkins instance:
 │   ├── master.key
 │   └── org.jenkinsci.main.modules.instance_identity.InstanceIdentity.KEY
 ...
+```
 
 Lots of interesting files with different formats. The file credentials.xml contains:
 
